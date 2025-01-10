@@ -1,0 +1,11 @@
+{
+  "name": "cv-online",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "css": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
