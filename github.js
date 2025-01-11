@@ -1,7 +1,7 @@
 const profileDiv = document.getElementById("profile")
 const reposDiv = document.getElementById("repos")
 
-const token = "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"
+const token = ""
 
 async function fetchGithubProfile(username) {
     try {
