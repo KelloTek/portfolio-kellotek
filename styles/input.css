@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
 .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
-  }
+}
   
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
